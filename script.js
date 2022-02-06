@@ -14,7 +14,7 @@ import gsap from 'https://cdn.skypack.dev/gsap';
 const ROOT_NODE = document.querySelector('#app');
 
 const CONFIG = {
-  url: 'https://t.me/+bczMZtCTlmEzMWZh',
+  url: 'https://t.me/+gpzTAtqN8Bs5OGVh',
   speed: 0.2 };
 
 
