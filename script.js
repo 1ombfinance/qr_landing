@@ -134,7 +134,7 @@ const QRWidget = ({ url = CONFIG.url, dark }) => {
         near: 1,
         far: 1000,
         fov: 75,
-        zoom: 1,
+        zoom: .8,
         position: [0, 0, 30] },
 
       shadows: true }, /*#__PURE__*/
