@@ -1,0 +1,30 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+:root {
+  --bg: #fafafa;
+}
+body,
+#app {
+  background: var(--bg);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (prefers-color-scheme: dark) {
+  body,
+  #app {
+    --bg: #262626;
+  }
+}
+.qr-code {
+  height: 45vmin;
+  width: 45vmin;
+}
+
+.ac{
+	display:none;
+}
